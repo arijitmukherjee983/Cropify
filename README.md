@@ -24,17 +24,10 @@ The **Crop Recommendation System** is an intelligent web-based platform designed
 ## 🗂️ Project Structure
 ```
 Crop-Deployment/
-├── app.py # Flask app for handling routes and predictions
-├── requirement.txt # Python dependencies
-├── crop_recommendation.csv # Dataset used for prediction
-├── vercel.json # Vercel deployment config
-├── templates/
-│ ├── index.html # Main landing page
-│ ├── about.html # Project description and goals
-│ └── contact.html # Contact page for experts
-├── static/
-│ └── img/
-│ └── img.jpeg # Background or content image
+├── app.py # main app.py
+├── requirements.txt # Python dependencies
+├── Crop_recommendation.csv # Dataset used for prediction
+├── random_forest_model.joblib # model
 ```
 ---
 
@@ -44,16 +37,17 @@ Crop-Deployment/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/arijitmukherjee983/Crop-Deployment.git
+git clone https://github.com/arijitmukherjee983/Cropify.git
 cd Crop-Deployment
 ```
 
 ### 2. Install dependencies
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 ### 3. Run the application locally
 ```
 python app.py
 ```
 ---
+
