@@ -47,7 +47,8 @@ pip install -r requirements.txt
 ```
 ### 3. Run the application locally
 ```
-python app.py
+Streamlit run app.py
 ```
 ---
+
 
